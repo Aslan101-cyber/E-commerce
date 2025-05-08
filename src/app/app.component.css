@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    /* You can use justify-content to control the horizontal spacing */
+    /* For example, to put space between them: */
+    /* justify-content: space-between; */
+  }
+  
+  /* You might also want to control the width of the categories section */
+  app-categories {
+    /* Example: Give it a fixed width or a percentage */
+    width: 300px;
+    /* Or */
+    /* flex: 0 0 30%; /* Don't grow, don't shrink, initial width of 30% */
+  }
+  
+  /* And the product list area (which is rendered in the router-outlet) */
+  router-outlet {
+    /* Example: Make it take up the remaining space */
+    flex-grow: 1;
+  }

@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+ 
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 0px;
+  }
+  a {
+    text-decoration: none;
+  }
+#landing{
+  background-image: url('https://www.digitalcommerce360.com/wp-content/uploads/2024/01/2024-american-ecommerce-header-hero-1-1024x335.png');
+background-position: center;
+background-size: cover;
+height: 350px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.landing-inner{
+    text-align: center;
+}
+.landing-inner h1{
+font-size: 40px;
+color: rgb(91, 235, 7);
+}

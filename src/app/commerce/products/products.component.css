@@ -1,0 +1,35 @@
+.row{
+    box-shadow: 0 0 50px rgb(58, 124, 20);
+
+  }
+.intro span {
+    color: rgb(58, 124, 20);
+    padding: 15px 0px;
+    font-size: 17px;
+}
+#found {
+    padding: 15px 5px;
+    color: white;
+    font-weight: 400;
+}
+h6{
+    color: white;
+}
+.me-2{
+    color: white;
+}
+.col-md-3{
+    padding-bottom: 5px;
+}
+hr{
+    color: white;
+}
+.container{
+    margin-bottom: 20px;
+}
+#p{
+    margin: 10px;
+}
+#s{
+color: rgb(58, 124, 20);
+}

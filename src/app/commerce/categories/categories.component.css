@@ -1,0 +1,143 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   background-color:#161e2d;
+ 
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 0px;
+  }
+ 
+  a {
+    text-decoration: none;
+  }
+
+#pc{
+padding-top: 20px;
+}
+.c{
+display: block ;
+
+}
+nav h4{
+ color: white;
+ padding: 15px 0px;
+ font-size: 700;
+}
+
+nav ul{
+  margin: 0px;
+  padding: 0px;
+   list-style: none;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 5px 0px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  
+ 
+  nav ul li a:hover {
+    color: #00ffc8;
+    
+  }
+  strong{
+    font-weight: bolder;
+    font-size: 1rem;
+    display: block;
+  }
+  #price1{
+    display: block;
+    margin: 10px 0px;
+  }
+  small{
+    color: #768081;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 10px 0px;
+  }
+  .colours{
+    display: flex;
+    margin: 10px 0px;
+   
+  }
+ .colours li {
+  display: flex;
+  padding: 3px;
+ }
+
+  #a{background-color: rgb(252, 7, 7);
+   display: flex;
+height: 20px;
+width: 20px;
+border-radius: 50%;
+padding: 3px; }
+  #b{
+     background-color: aqua; 
+    display: flex;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    padding: 3px;
+  }
+  #c{
+    background-color: rgb(0, 0, 0);
+     display: flex;
+height: 20px;
+width: 20px;
+border-radius: 50%;
+ padding: 3px; }
+  #d{
+    background-color: rgb(82, 255, 2);
+     display: flex;
+height: 20px;
+width: 20px;
+border-radius: 50%;
+padding: 3px; }
+  #e{
+     background-color: rgb(246, 250, 0); 
+    display: flex;
+height: 20px;
+width: 20px;
+border-radius: 50%;
+ padding: 3px;
+}
+  #f{background-color: rgb(255, 115, 0); 
+     display: flex;
+height: 20px;
+width: 20px;
+border-radius: 50%;
+padding: 3px;}
+.cards{
+  display: block;
+  justify-content: center;
+}
+.card{
+  width: auto;
+  height: auto;
+  background-color: white;
+margin: 10px;
+padding: 10px;
+text-align: center;
+align-self: center;}
+.card .img-con img{
+  height: 200px;
+  width: 150px;
+}
+.info{
+  margin-bottom: 50px;
+}
+.line{
+  width: 80px;
+  height: 1px;
+  background-color: black;
+  margin: auto;
+}
+
